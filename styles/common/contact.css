@@ -1,0 +1,41 @@
+/* ------- */
+/* Contact */
+/* ------- */
+
+.contact {
+  padding-block: 80px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-title {
+  font-family: var(--ff-accent);
+  font-size: var(--fs-800);
+  font-weight: var(--fw-bold);
+}
+
+.contact-line {
+  display: none;
+  flex: 1;
+}
+
+@media (min-width: 48em) {
+  .contact {
+    padding-block: 96px;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .contact-title {
+    text-align: left;
+    max-width: 350px;
+  }
+
+  .contact-line {
+    display: block;
+  }
+}

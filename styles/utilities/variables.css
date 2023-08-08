@@ -1,0 +1,41 @@
+/* ------------- */
+/* CSS Variables */
+/* ------------- */
+
+:root {
+  --ff-base: "Public Sans", sans-serif;
+  --ff-accent: "Ibarra Real Nova", serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-200: 0.75rem; /* 12px */
+  --fs-250: 0.8125rem; /* 13px */
+  --fs-300: 0.9375rem; /* 15px */
+  --fs-400: 1rem; /* 16px */
+  --fs-700: 2rem; /* 32px */
+  --fs-800: 2.5rem; /* 40px */
+  --fs-900: 3.125rem; /* 50px */
+
+  --fs-title: var(--fs-800); /* -> desktop --fs-900 */
+  --fs-label: var(--fs-250); /* -> desktop --fs-400 */
+
+  --clr-primary-400: #5fb4a2;
+  --clr-primary-600: #203a4c;
+  --clr-primary-700: #33323d;
+  --clr-rgb-primary-700: 51, 50, 61;
+  --clr-primary-900: #00000033;
+
+  --clr-secondary-100: #ffffff;
+  --clr-secondary-200: #fafafa;
+  --clr-secondary-300: #eaeaeb;
+  --clr-secondary-600: #f43030;
+}
+
+/* @media (min-width: 90em) {
+      :root {
+        --fs-title: var(--fs-900);
+        --fs-label: var(--fs-400);
+        --fs-300: var(--fs-400);
+      }
+    } */

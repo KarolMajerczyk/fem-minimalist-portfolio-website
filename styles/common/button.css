@@ -1,0 +1,47 @@
+/* ------ */
+/* Button */
+/* ------ */
+
+.btn {
+  text-transform: uppercase;
+  font-size: var(--fs-200);
+  text-decoration: none;
+  color: inherit;
+
+  display: inline-block;
+}
+
+.btn-primary {
+  border: 1px solid var(--clr-primary-700);
+  padding: 17px 32px;
+}
+
+.btn-primary:hover {
+  background-color: var(--clr-primary-700);
+  color: var(--clr-secondary-200);
+}
+
+.btn-secondary {
+  display: flex;
+  align-items: center;
+
+  width: 200px;
+  background-color: var(--clr-primary-600);
+  color: var(--clr-secondary-100);
+}
+
+.btn-secondary:hover {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-secondary-100);
+}
+
+.btn-icon {
+  width: 48px;
+  background: var(--clr-primary-900);
+  padding: 18px 16px;
+}
+
+.btn-text {
+  flex: 1;
+  text-align: center;
+}

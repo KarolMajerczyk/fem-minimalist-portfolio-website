@@ -1,0 +1,26 @@
+/* -------- */
+/* Projects */
+/* -------- */
+
+.portfolio-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+@media (min-width: 48em) {
+  .portfolio-projects {
+    margin-top: 47px;
+    gap: 80px;
+  }
+}
+
+@media (min-width: 69.4375em) {
+  .portfolio .contact {
+    padding-block: 150px;
+  }
+
+  .portfolio-projects {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,47 @@
+/* ---- */
+/* Hero */
+/* ---- */
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-title);
+  line-height: 42px;
+  letter-spacing: -0.36px;
+
+  padding-block: 24px 32px;
+}
+
+@media (min-width: 48em) {
+  .hero-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: var(--clr-secondary-200);
+    margin-left: 2.4em;
+    padding: 56px 56px 0px 0px;
+    max-width: 514px;
+  }
+}
+
+@media (min-width: 69.4375em) {
+  .hero-box {
+    max-width: 445px;
+  }
+}
+
+@media (min-width: 74.4375em) {
+  .hero-box {
+    margin-left: 0em;
+  }
+}

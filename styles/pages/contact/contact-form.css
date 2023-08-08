@@ -1,0 +1,28 @@
+/* ------------ */
+/* Contact Form */
+/* ------------ */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-bottom: 24px;
+}
+
+.form-label {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-label);
+  line-height: 30px;
+}
+
+.form-input {
+  padding: 9px 16px;
+  background-color: rgba(var(--clr-rgb-primary-700), 0.1);
+  border: none;
+  font-size: var(--fs-label);
+}
+
+.form-fieldset {
+  border: none;
+}

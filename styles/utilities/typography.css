@@ -1,0 +1,32 @@
+/* -------------- */
+/* CSS Typography */
+/* -------------- */
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-300);
+  line-height: 30px;
+  color: var(--clr-primary-700);
+  background-color: var(--clr-secondary-200);
+}
+
+.primary-heading,
+.secondary-heading {
+  font-family: var(--ff-accent);
+  line-height: 42px;
+}
+
+.primary-heading {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-800);
+  letter-spacing: -0.36px;
+}
+
+.secondary-heading {
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-700);
+  letter-spacing: -0.29px;
+}
+
+/* newxt, previous - secondary-heading (line-height: 36px) */
