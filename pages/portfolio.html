@@ -20,16 +20,14 @@
     <header>
       <div class="container header">
         <img class="logo-icon" src="../images/logo.svg" alt="" />
-        <img
-          class="mobile-nav-icon"
-          src="../images/icons/hamburger.svg"
-          alt=""
-        />
-        <nav class="header-nav">
-          <ul class="nav-list fs-200">
+        <button class="toggle-nav-btn">
+          <img class="mobile-nav-icon" src="../images/icons/hamburger.svg" alt="" />
+        </button>
+        <nav class="header-nav hidden">
+          <ul class="nav-list">
             <li><a href="../index.html" class="nav-link">Home</a></li>
             <li><a href="#" class="nav-link link-active">Portfolio</a></li>
-            <li><a href="#" class="nav-link">Contact Me</a></li>
+            <li><a href="contact.html" class="nav-link">Contact Me</a></li>
           </ul>
         </nav>
       </div>
@@ -37,7 +35,7 @@
     <!-- Header End -->
 
     <!-- Main -->
-    <main>
+    <main class="portfolio">
       <section>
         <div class="container portfolio-projects">
           <article class="preview-card">
@@ -182,7 +180,7 @@
       <!-- Contact Section -->
       <section>
         <div class="container contact">
-          <h2 class="contact-title | text-center ff-accent fs-800 text-bold">
+          <h2 class="contact-title">
             Interested in doing a project together?
           </h2>
           <hr class="contact-line"></hr>
@@ -194,30 +192,32 @@
     <!-- Main End -->
 
     <!-- Footer -->
-    <footer class="bg-700">
-      <div class="footer container text-white">
+    <footer class="footer">
+      <div class="footer-wrapper container">
         <img class="logo-icon" src="../images/logo-light.svg" alt="" />
         <nav>
-          <ul class="nav-list footer-nav fs-200">
+          <ul class="nav-list footer-nav">
             <li>Home</li>
             <li>Portfolio</li>
             <li>Contact Me</li>
           </ul>
         </nav>
         <!-- margin-left: auto -->
-        <ul class="social-links text-uppercase">
-          <li class="social-icon">
-            <img src="../images/icons/github.svg" alt="" />
+        <ul class="social-links">
+          <li>
+            <img class="social-icon" src="../images/icons/github.svg" alt="" />
           </li>
-          <li class="social-icon">
-            <img src="../images/icons/twitter.svg" alt="" />
+          <li>
+            <img class="social-icon" src="../images/icons/twitter.svg" alt="" />
           </li>
-          <li class="social-icon">
-            <img src="../images/icons/linkedin.svg" alt="" />
+          <li>
+            <img class="social-icon" src="../images/icons/linkedin.svg" alt="" />
           </li>
         </ul>
       </div>
     </footer>
     <!-- Footer End -->
+
+    <script src="../index.js"></script>
   </body>
 </html>
